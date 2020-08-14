@@ -15,9 +15,9 @@ after_success:
 notifications:
   email:
     recipients:
-      -youremail@smtp.ru
+      -mugoloka@gmail.com
     on_success: never # default: change
-    on_failure: always # defa,ult: always
+    on_failure: always # default: always
     env:
       global:
-        - CODECOV_TOKEN="75a3c18b-fec3-4c97-8090-34931a4d00a5"
+        - CODECOV_TOKEN="8b0a0c53-777d-4328-8ca4-6da6e8c5ebe4"
